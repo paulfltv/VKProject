@@ -3,7 +3,7 @@ package manager;
 import domain.*;
 
 public class PostManager {
-	private Post[] posts;
+	public Post[] posts;
 	public Post[] search(Copyright copyright,
 						 Geo geo,
 						 HeaderInfo headerInfo,
@@ -21,5 +21,6 @@ public class PostManager {
 					   LikesInfo likesInfo,
 					   RepostsInfo repostsInfo,
 					   ViewsInfo viewsInfo) {
+		return;
 	}
 }

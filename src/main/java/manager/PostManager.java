@@ -1,30 +1,11 @@
 package manager;
-
 import domain.*;
 
 public class PostManager {
 
-	private Post[] posts;
-
-	public Post[] search(Copyright copyright,
-						 Geo geo,
-						 HeaderInfo headerInfo,
-						 ActionsInfo actionsInfo,
-						 CommentsInfo commentsInfo,
-						 LikesInfo likesInfo,
-						 RepostsInfo repostsInfo,
-						 ViewsInfo viewsInfo) {
+	public Post[] search(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
 		return null;
 	}
-
-	public void delete(Copyright copyright,
-					   Geo geo,
-					   HeaderInfo headerInfo,
-					   ActionsInfo actionsInfo,
-					   CommentsInfo commentsInfo,
-					   LikesInfo likesInfo,
-					   RepostsInfo repostsInfo,
-					   ViewsInfo viewsInfo) {
-		return;
+	public void delete(int ownerId, int postId) {
 	}
 }
